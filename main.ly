@@ -14,38 +14,10 @@
   #(set-paper-size "letter")
 }
 
-global = {
-  \key d \minor
-  \numericTimeSignature
-  \time 3/4
-}
-
-prelude = \relative c {
-  \global
-  a b c
-  
-}
-
-allemande = \relative c {
-  d e f
-}
-
-\score {
-  \new Staff \with {
-    midiInstrument = "contrabass"
-  } { \clef bass \prelude }
-  \layout { }
-  \midi {
-    \tempo 4=100
-  }
-}
-
-\score {
-  \new Staff \with {
-    midiInstrument = "contrabass"
-  } { \clef bass \allemande }
-  \layout { }
-  \midi {
-    \tempo 4=100
-  }
-}
+\include "movements/prelude.ily"
+\include "movements/allemande.ily"
+\include "movements/courante.ily"
+\include "movements/sarabande.ily"
+\include "movements/menuet1.ily"
+\include "movements/menuet2.ily"
+\include "movements/gigue.ily"
