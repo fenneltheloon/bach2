@@ -46,7 +46,7 @@
   >> \oneVoice |
   \stemNeutral b16 f d f g, \slurSolid d'( f g) b f d' f, |
   e g c,( d e f g a) bf d c g |                                             %20
-  a c( bf a g f ef d) e c' f, e |
+  a c( bf a g f ef d) ef c' f, e |
   <<
    {\voiceOne
     d4~ \stemDown 16 \slurDotted e( f g) 
