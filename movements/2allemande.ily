@@ -43,7 +43,7 @@
     bf a( g f) a( e) f( d) bf d( f a) d( a) bf( g) |                        %20
     a,( g') cs( d) e( g,) a( e) f( d) bf( d) gs, f' e d |
     d cs( b a) c( a fs) d' c a( b d) f( d gs,) d' |
-    cs e( g bf) e( a,) bf( g) f( c) d( gs,) a8 c |
+    cs e( g bf) e( a,) bf( g) f( cs) d( gs,) a8 cs |
     d,16 d''( c a) bf( g e) cs' d a f d d,8. \bar ":|."
     \mark \markup { \smaller \musicglyph "scripts.ufermata" }
   }
