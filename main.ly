@@ -22,7 +22,9 @@
 
 \include "movements/1prelude.ily"
 \include "movements/2allemande.ily"
+\pageBreak
 \include "movements/3courante.ily"
+\pageBreak
 \include "movements/4sarabande.ily"
 \include "movements/5minuet1.ily"
 \include "movements/6minuet2.ily"

@@ -17,20 +17,11 @@
     \key d \minor
     \time 3/4
 
-    d8^+_\flageolet_1\startGroup \startGroup
-    f^2_+ a4~^1_3 16 f(_+ e_3
-    \once \override Glissando.bound-details.left.Y = #4
-    \once \override Glissando.bound-details.right.Y = #4
-    d)_\flageolet_\1^+^\markup{\musicglyph "scripts.flageolet"}\stopGroup
-    \glissando |
-    cs^+_"+" e(^1_\3 g^+_"+" a)^1 bf4~^2 16 \slurDashed a(_1 g_+ f)_2 |
-    e_1\stopGroup \slurSolid g(_+_\flageolet 
-    \once \override Glissando.bound-details.left.Y = #-4
-    \once \override Glissando.bound-details.right.Y = #-4
-    bf_+\glissando\startGroup cs)_1 e8._3 bf16_2 \slurDashed 
-    a(\stopGroup_\1_\flageolet g\startGroup_+_\flageolet f_2 e)_1 |
+    d8 f a4~ 16 f( e d) |
+    cs e( g a) bf4~ 16 \slurDashed a( g f) |
+    e \slurSolid g( bf cs) e8. bf16 \slurDashed a( g f e) |
     \slurSolid f( g a) f d8 c( bf a) |
-    bf16 d(\stopGroup f a) d8. c16 bf a( g f) |                                        %5
+    bf16 d( f a) d8. c16 bf a( g f) |                                        %5
     \slurDashed e( g bf) d c( a) bf( g) f( e g) bf, |
     a \slurSolid c( e g) c8. bf16 a g( f e) |
     \slurDashed d( f a) c bf( g) a( f) \slurSolid e( f a) f |

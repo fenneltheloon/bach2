@@ -26,7 +26,7 @@
    f a( b c b a gs a) f a e a |
    ds, a'( b c b a gs a) e a e gs |                                         %15
    a e cs e a, cs e gs a8. 
-  } \repeat volta 2 {
+  } \break \repeat volta 2 {
    e'16 |
    e cs a cs e, f g a bf( g) cs( g) |
    <f d'>4~ d'16 \slurDotted a( d e) f d a c |

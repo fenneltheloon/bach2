@@ -34,7 +34,7 @@
       d,16 gs( a b a gs fs e) <c e a>8 f16( e) d( c) b( a) |                %10
       <gs d' b'>8 e'16( f) e( d) c( b) \slurDotted <a e' d'>( b') c( a) e8 gs |
       a,8. cs16 e g f e f a d gs, a8.
-    } \repeat volta 2 {
+    } \break \repeat volta 2 {
       e16 |
       \slurSolid <a, e' cs'>8. f'16 g( e) f( a) \slurDashed cs,( d e) bf
       a8.\trill g16 |

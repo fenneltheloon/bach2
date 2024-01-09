@@ -60,7 +60,7 @@
    c,, e''( d) c( b) gs |                                                   %30
    a( f) e( d) e( cs) |
    a4
-  } \repeat volta 2 {
+  } \break \repeat volta 2 {
    c'8 |
    f,4 d'8 |
    e,4 bf'8 |                                                               %35
