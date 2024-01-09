@@ -37,7 +37,7 @@
    d2. |
   }
   \once \tweak direction #DOWN
-  \textEndMark \markup \smaller \italic \bold "Minuet 1 da capo, senza volta" 
+  \textEndMark \markup \smaller \italic \bold "Minuet 1 da capo" 
   \mark \markup { \smaller \musicglyph "scripts.ufermata" }
  }
 }

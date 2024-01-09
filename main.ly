@@ -12,7 +12,12 @@
 }
 
 \paper {
-  #(set-paper-size "letter")
+  #(set-paper-size "11x17")
+  system-system-spacing = #'(
+    (basic-distance . 15)
+    (minimum-distance . 10)
+    (stretchability . 5)
+    (padding . 5))
 }
 
 \include "movements/1prelude.ily"

@@ -55,7 +55,7 @@
     {\voiceOne
      a'4
     } \new Voice {\voiceTwo
-     \slurDotted f8( ef)
+     \slurDotted f8([ ef)]
     }
    >> \oneVoice
    <ef a>4. \trill bf'8 |
