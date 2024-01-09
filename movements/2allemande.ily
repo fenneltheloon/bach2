@@ -38,7 +38,7 @@
       e16 |
       \slurSolid <a, e' cs'>8. f'16 g( e) f( a) \slurDashed cs,( d e) bf
       a8.\trill g16 |
-      f a'( f d) \slurSolid g (b, cs) a' g( f e) d fs d( ef) c( |
+      f a'( f d) \slurSolid g b,( cs) a' g( f e) d fs d( ef) c( |
       bf) g'( a, g) fs a d c' bf( fs g)bf d( a) bf( g) |                    %15  
       ef( d ef) g c( a) bf( g) \slurDashed d( c d) g \slurSolid bf( fs) g( 
       ef) |

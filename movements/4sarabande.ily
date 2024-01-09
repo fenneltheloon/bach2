@@ -22,7 +22,7 @@
    \mergeDifferentlyDottedOff |
    <d, a' f'>4. e'8( d c) |
    \slurSolid bf g' f e16( f g a bf d,)
-   cs4. \trill \slurDotted b8 a g |
+   cs4. \trill \slurDotted b8( a g) |
    <<
     {\voiceOne
      d'8.( e16) e4.( \parenthesize \trill d16 e)
@@ -53,29 +53,22 @@
   } \repeat volta 2 {
    <<
     {\voiceOne
-     a'4 a4. \trill
+     a'4
     } \new Voice {\voiceTwo
-     \slurDotted f8( ef) ef4.
+     \slurDotted f8( ef)
     }
    >> \oneVoice
-   bf'8 |
+   <ef a>4. \trill bf'8 |
    <<
     {\voiceOne
-     \slurSolid \slurDown c b16( a)
+     \slurSolid \slurDown c bf16( a)
     } \new Voice {\voiceTwo
      d,4
     }
    >> \oneVoice
    fs8. \trill ef16 \slurDotted d8( c) |
    bf g' a, \slurDashed fs'( ef' d) |                                       %15
-   <<
-    {\voiceOne
-     bf4. \trill
-    } \new Voice {\voiceTwo
-     <g, d'>4.
-    }
-   >> \oneVoice
-   \slurDotted a'8( g f) |
+   <g,, d' bf'>4. \trill \slurDotted a'8( g f) |
    \slurDashed e bf( a) \slurDotted f'( g a) |
    \slurDashed d, af( g) \slurDotted ef'( f g) |
    \slurDashed cs, bf' a g16( f) e8 f16( d) |

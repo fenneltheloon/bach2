@@ -23,7 +23,7 @@
    f a d,( e f g a bf) c bf d c |                                            %5
    <<
     {\voiceOne
-     c4~ \stemDown 16 \slurDotted b( a g) \slurSolid f( ef) d( ef)
+     c4~ \stemDown 16 \slurDotted bf( a g) \slurSolid f( ef) d( ef)
     } \new Voice {\voiceTwo
      <a, f'>4
     }
@@ -40,7 +40,7 @@
    a e cs e a, cs e gs a8. 
   } \repeat volta 2 {
    e'16 |
-   e cs a cs e, f g a bf( g) c( g) |
+   e cs a cs e, f g a bf( g) cs( g) |
    <<
     {\voiceOne
      d'4~ \stemDown 16 \slurDotted a( d e) f d a c
@@ -50,7 +50,7 @@
    >> \oneVoice |
    \stemNeutral b16 f d f g, \slurSolid d'( f g) b f d' f, |
    e g c,( d e f g a) bf d c g |                                            %20
-   a c( bf a g f ef d) ef c' f, e |
+   a c( bf a g f ef d) ef c' f, ef |
    <<
     {\voiceOne
      d4~ \stemDown 16 \slurDotted e( f g) 

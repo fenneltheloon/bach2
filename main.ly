@@ -1,8 +1,9 @@
 \version "2.24.3"
 \language "english"
 
+\pointAndClickOff
 \header {
-  title = "Suite No. 2 in d minor, BVW 1008"
+  title = "Suite No. 2 in d minor, BWV 1008"
   subtitle = "for solo violoncello, edit. double bass"
   composer = "J. S. Bach (1685 – 1750)"
   arranger = "edit. Tracy Rowell"

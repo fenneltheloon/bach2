@@ -32,7 +32,7 @@
     c, a'( g f) cs g'( f e) d f( e d) |
     \slurDashed gs, d'( e f) b f( e d) gs, \slurSolid d'( c b) |
     \slurDashed a( b c) e a( b c) a e c( a g) |
-    \slurSolid fs a( c d) ef8. d16 c( b c) a' |                             %25
+    \slurSolid fs a( c d) ef8. d16 c( bf c) a' |                             %25
     bf,( a bf) d g, ef'( f g) a, g'( f ef) |
     d( c d) f bf, g'( a bf) cs, bf'( a g) |
     f( e f) a d, bf'( c d) e, \slurDashed d'( c bf) |
