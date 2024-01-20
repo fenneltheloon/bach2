@@ -1,12 +1,14 @@
 \version "2.24.3"
 \language "english"
 
-\score {
+\score { \new Staff \with {
+  instrumentName = \markup \bold "Sarabande"
+}
  \relative c {
-  \tempo \markup "Sarabande"
   \clef bass
   \key d \minor
   \time 3/4
+  \set fingeringOrientations = #'(left)
 
   \mergeDifferentlyHeadedOn
   \mergeDifferentlyDottedOn

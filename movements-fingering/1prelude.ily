@@ -2,11 +2,14 @@
 \language "english"
 
 \score {
+  \new Staff \with {
+	instrumentName = \markup \bold "Prelude"
+  }
   \relative c {
-    \tempo \markup "Prelude"
     \clef bass
     \key d \minor
     \time 3/4
+    \set fingeringOrientations = #'(left)
 
     d8^\thumb_1_\flageolet\startGroup 
     f^2_\thumb a4~^1_3 16 f(_\thumb e_3 
@@ -25,8 +28,8 @@
     bf16 d(_\thumb\stopGroup f^\thumb_1 a)^2_\thumb d8.^3_3 c16^3_3\startGroup
     bf^2_1 a(^1_1 g^\thumb_\markup \musicglyph "plus" f)^2_2 |               %5
     
-    \slurDashed e(^1_1 g^\thumb_1 bf)^2_\thumb d^3^\flageolet_3 c(^3 a)^1 
-    bf(^2 g)^\thumb f( e g)^\thumb bf,^1\stopGroup |
+    \slurDashed e(_1 g_\thumb bf)_2 d_3_\flageolet c(_3 a)_1 
+    bf(_2 g)_\thumb f( e g)_\thumb bf,_1\stopGroup |
     
     a_1\startGroup \slurSolid c(_\thumb e_3\stopGroup g)_\thumb\startGroup 
     c8._3 bf16_2 a_1 g(_\thumb f_2 e)_1 |
@@ -63,10 +66,10 @@
     c(_\thumb b_3 a)_1_\flageolet c_\thumb\stopGroup f(_2\startGroup e_1 f)_2 
     gs_\thumb a_1 \slurDotted f(_2 d_\thumb c)_2 |
 
-    \slurSolid b(_1 d_\thumb_\flageolet gs)_\thumb b_3\stopGroup 
-    d8._3\startGroup c16_1 b_\thumb a(_3 gs_2 a)_3_\flageolet |
+    \slurSolid b(_1 d_\thumb_\flageolet gs)_\thumbcirc b_3_1\stopGroup 
+    d8._3 c16_1^3\startGroup b_\thumb^2 a(_3^1 gs_2^\thumb a)_3_\flageolet^1 |
 
-    \slurDashed c,(_\thumb e_3 a)_3\stopGroup c_\thumb\startGroup 
+    \slurDashed c,(_\thumb^2\stopGroup e_3^2 a)_3^\3 c_\thumb\startGroup 
     e8._3\stopGroup c16_3\startGroup b_2 \slurSolid a(_1 gs_\thumb a)_1 |
 
     d,(_\thumb_\flageolet\stopGroup f_1 a)_3_\flageolet d_\thumb_\flageolet 
@@ -94,7 +97,7 @@
     \override TextSpanner.direction = #DOWN
 
     \slurSolid fs_1 a(_\thumb c_3 d)_\thumb\startTextSpan ef8._1 
-    d16_\thumb\stopGroup c(_3\startGroup bf_1 c)_3 a'_\thumb_\flageolet |   %25
+    d16_\thumb\stopGroup c(_1\startGroup bf_\thumb c)_\1 a'_\thumb_\flageolet |   %25
 
     bf,(_1 a_\thumb bf)_1 d_3_\flageolet\stopTextSpan\stopGroup g,_0_"I" 
     ef'(_\thumb_"II"\startGroup f_1 g)_3 a,_\thumb_\flageolet_"III" g'(_3_"II" 
@@ -108,10 +111,10 @@
     c_1 d)_3_\flageolet e,_3_\flageolet \slurDashed d'(_3_\flageolet c_1 
     bf)_\thumb\stopGroup |
 
-    \slurSolid a(_3\startGroup g_1 a)_3 c_1 f,_\thumb\stopGroup 
-    d'(_1\startGroup e_2 f)_3 g,_\thumb f'(_3 e_2 d)_1\stopGroup |
+    \slurSolid a(_3_2\startGroup g_1 a)_3_2 c_1 f,_\thumb\stopGroup 
+    d'(_1\startGroup e_2 f)_\3 g,_\thumb f'(_3 e_2 d)_1\stopGroup |
 
-    cs_3 g(_\thumb_\flageolet f_2 e)_1 a,_\thumb_\flageolet e'(_1 f_2 
+    cs_3_1 g(_\thumb_\flageolet f_2 e)_1 a,_\thumb_\flageolet e'(_1 f_2 
     g)_\thumb_\flageolet cs_3 bf(_2 a_1 g)_\thumb |                         %30
 
     f(_2 g_\thumb_\flageolet a)_\thumb cs_2 d_3_\flageolet a(_3_\flageolet g_1 
@@ -121,13 +124,13 @@
     e_1 d)_\thumb gs_1 \slurDashed f(_2 e_1 d)_\thumb_\flageolet |
 
     cs(_1_"II"\startGroup b_\thumb cs)_1 e_\thumb_"I" a_3 \slurSolid e(_\thumb 
-    cs_1 e)_\thumb a,_3_\flageolet\stopGroup g'(_\thumb_\flageolet\startGroup 
+    cs_1 e)_\thumb a,_2_\flageolet\stopGroup g'(_\thumb_\flageolet\startGroup 
     f_2 e)_1 |
 
     f(_2 e_1 f)_2\stopGroup a_\thumb d_3_\flageolet a(_3_\flageolet f_\thumb 
     a)_3_\flageolet d,_\thumb_\flageolet c'(_3 bf_1 a)_\thumb |
 
-    g(_2 f_1 g)_2 cs_\thumb\startGroup e_3\stopGroup \slurDotted 
+    g(_2 f_1 g)_2 cs_\thumb_1\startGroup e_3\stopGroup \slurDotted 
     cs(_2\startGroup g_1 cs)_2\stopGroup a,_\thumb \slurSolid g'(_3 f_2 
     e)_1 |                                                                  %35
 
@@ -140,8 +143,8 @@
     \override TextSpanner.bound-details.left.text = \markup \upright "II"
 
     \slurSolid g(_\thumb a_1 bf)_2 d,_\thumb\startTextSpan ef_1 f_3 
-    g_\thumb\startGroup a_1 bf_2 g_\thumb\stopTextSpan ef'_3_"I" 
-    g,_\thumb_"II"\stopGroup |
+    g_\thumb^1\startGroup a_1^2 bf_2^3 g_\thumb^1\stopTextSpan ef'_3^3_"I" 
+    g,_\thumb^1_"II"\stopGroup |
 
     \slurDashed f(_\thumb\startGroup g_1 a)_\3 cs,_1_"III"\stopGroup 
     d_\thumb_\flageolet_"II"\startGroup e_1 f_2\stopGroup g_1\startGroup a_3 
@@ -159,22 +162,23 @@
 
     gs,8_1 f'_3 d'4~_\thumb 16 \slurDashed f(_2 e_1 d)_\thumb_\flageolet |
 
-    cs_1 b(_\thumb a_2_\flageolet b)_\thumb cs_1 a_2_\flageolet d_2_\flageolet 
-    a_\thumb_\flageolet e'_1 a,_\thumb_\flageolet f'_2 a,_\thumb_\flageolet |
+    cs_1 b(_\thumb a_2_\flageolet b)_\thumb cs_1 a_2_\flageolet 
+    d_2_3_\flageolet a_\thumb_\flageolet e'_1 a,_\thumb_\flageolet f'_2 
+    a,_\thumb_\flageolet |
 
-    g'_3 \slurDotted e(_2 cs_\thumb e)_2 \slurDashed a,(_1 cs_\thumb e)_2 f_2 
-    g_3 f_2 g_3 e_1 |
+    g'_3 \slurDotted e(_2 cs_\thumb e)_2 \slurDashed a,(_1 cs_\thumbcirc e)_1 
+    f_2 g_3 f_2 g_3 e_1 |
 
-    \slurDotted f_2 d(_2 cs_1 d)_2 \slurDashed a(_2_\flageolet cs_1 
-    d)_\thumb\startGroup e_1 f_2 e_1 f_2 d_\thumb_\flageolet |              %45
+    \slurDotted f_2 d(_2 cs_1 d)_2^2 \slurDashed a(_2_\flageolet^\1^\flageolet 
+    cs_1^\thumb d)_\thumb\startGroup e_1 f_2 e_1 f_2 d_\thumb_\flageolet |  %45
 
-    \slurDotted e_1 cs(_2 b_1 cs)_2 \slurSolid a(_\thumb b_1 cs)_2 d_\thumb e_1
-    d_\thumb e_1 cs_2 |
+    \slurDotted e_1 cs(_2^1 b_1^\thumb cs)_2^1 \slurSolid 
+    a(_\thumb^2^\flageolet b_1^\thumb cs)_2^1 d_\thumb^1 e_1^2 d_\thumb^1 
+    e_1^2 cs_2^\thumb |
 
-    d_\thumb_\flageolet\stopGroup b(_3 a_1 b)_3 f(_2 gs_\thumb b)_3_1 cs_2 d_3 
-    cs_2 d_3 b_1 |
+    d_\thumb_\flageolet^1^\flageolet\stopGroup b(_3 a_1 b)_3 f(_2 gs_\thumb 
+    b)_3_1 cs_2 d_3 cs_2 d_3 b_1 |
 
-    \set fingeringOrientations = #'(left)
 
     <g,-0 e'-\thumb cs'-3>4\fermata r r |
 

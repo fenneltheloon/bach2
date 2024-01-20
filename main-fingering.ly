@@ -6,7 +6,10 @@
 #(set-global-staff-size 25)
 
 thumb = \finger\markup\fontsize #5 \musicglyph "plus"
+thumbcirc = \finger\markup\fontsize #5 \circle \musicglyph "plus"
 flageolet = \finger\markup\fontsize #4 \musicglyph "scripts.flageolet"
+slurDotted = \slurDashPattern 0.25 0.35
+slurDashed = \slurDashPattern 0.6 0.85
 
 \header {
   title = "Suite No. 2 in d minor, BWV 1008"
@@ -24,6 +27,7 @@ flageolet = \finger\markup\fontsize #4 \musicglyph "scripts.flageolet"
     (minimum-distance . 10)
     (stretchability . 5)
     (padding . 5))
+
 
   #(define fonts
       (make-pango-font-tree "Noto Serif"
