@@ -55,4 +55,5 @@ slurDashed = \slurDashPattern 0.6 0.85
 \include "movements-fingering/4sarabande.ily"
 \include "movements-fingering/5minuet1.ily"
 \include "movements-fingering/6minuet2.ily"
+\pageBreak
 \include "movements-fingering/7gigue.ily"
